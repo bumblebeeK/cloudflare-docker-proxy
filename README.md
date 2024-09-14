@@ -4,7 +4,7 @@
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-docker-proxy)
 
-> If you're looking for proxy for helm, maybe you can try [cloudflare-helm-proxy](https://github.com/ciiiii/cloudflare-helm-proxy).
+> If you're looking for proxy for helm, maybe you can try [cloudflare-helm-proxy](https://github.com/bumblebeek/cloudflare-helm-proxy).
 
 ## Deploy
 
@@ -30,11 +30,11 @@
    - add more records and modify the config as you need
    ```javascript
    const routes = {
-     "docker.libcuda.so": "https://registry-1.docker.io",
-     "quay.libcuda.so": "https://quay.io",
-     "gcr.libcuda.so": "https://k8s.gcr.io",
-     "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-     "ghcr.libcuda.so": "https://ghcr.io",
+     "docker.bumblebeek.xyz": "https://registry-1.docker.io",
+     "quay.bumblebeek.xyz": "https://quay.io",
+     "gcr.bumblebeek.xyz": "https://k8s.gcr.io",
+     "k8s-gcr.bumblebeek.xyz": "https://k8s.gcr.io",
+     "ghcr.bumblebeek.xyz": "https://ghcr.io",
    };
    ```
 
